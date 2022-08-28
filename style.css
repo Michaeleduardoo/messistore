@@ -1,0 +1,401 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Telugu', sans-serif;
+  }
+  
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    position: fixed;
+    width: 100%;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+    z-index: 999;
+    top: 0;
+    left: 0;
+
+  }
+  
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .listah {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  .link-a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s;
+  }
+  
+  .link-a:hover {
+    color: #0071B6;
+  }
+  
+  #links-a {
+    color: #0071B6;
+  }
+  
+  #links-a::after {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background: #0071B6;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+  }
+  
+  .link-a:hover::after {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background: #0071B6;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+  }
+  
+  #coniteiner {
+    background-image: url("./img/hero-messi-tattoo_1512x.webp");
+    height: 90vh;
+    width: 100%;
+    margin-top: 101px;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #continei{
+    margin-left: 40px;
+    margin-top: 180px;
+  }
+  
+  #titulo-h4 {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  #titulo-h2{
+    font-size: 50px;
+  }
+  
+  #titulo-h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: -25px;
+  }
+  
+  #paragrafin{
+
+    color: #171719;
+    margin-bottom: 10px;
+  }
+
+  /* From uiverse.io by @EmmaxPlay */
+  .btn {
+    padding: 0.9em 1.6em;
+    border: none;
+    outline: none;
+    color: #0071B6;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+    margin-top: 8px;
+    margin-left: 15px;
+  }
+  
+  .btn::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46, 46, 46);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  /* glow */
+  .btn::before {
+    content: '';
+    background: linear-gradient(
+      45deg,
+      #00ff7f,
+      #ffff00,
+      #00ff00,
+      #002bff,
+      #ff0000,
+      #002bff,
+      #ff00c8,
+      #002bff
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+  }
+  
+  @keyframes glowing {
+    0% {
+      background-position: 0 0;
+    }
+  
+    50% {
+      background-position: 400% 0;
+    }
+  
+    100% {
+      background-position: 0 0;
+    }
+  }
+
+  .feature{
+    padding: 40px 80px;
+  }
+  
+  /* hover */
+  .btn:hover::before {
+    opacity: 1;
+  }
+  
+  .btn:active:after {
+    background: transparent;
+  }
+  
+  .btn:active {
+    color: #000;
+    font-weight: bold;
+  }
+
+
+
+.imgs{
+    width: 130%;
+    margin-bottom: 10px;
+    padding: 15px;
+    margin-left: -23px;
+}
+
+.imgs-1{
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.imgs-2{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.imgs-3{
+    width: 115%;
+    margin-bottom: 10px;
+    margin-left: -9px;
+
+}
+
+.imgs-4{
+    width: 115%;
+    margin-bottom: 10px;
+    margin-left: -9px;
+}
+
+.imgs-5{
+    width: 77%;
+    margin-bottom: 10px;
+}
+
+
+#feature{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+
+#feature .box-conteiner{
+    display:inline-block;
+    width: 190px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(0, 0 , 0 , 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin:15px 4px ;
+}
+
+#feature .box-conteiner:hover{
+    box-shadow: 10px 10px 54px rgb(70, 62 , 221 , 0.1);
+
+}
+.titu-h6{
+   
+    font-size: 16px;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color:	#2F4F4F;
+    background-color:#66CDAA;
+}
+
+
+#product{
+    text-align: center;
+}
+
+#product .conteiner-pro{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+#Products{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -20px;
+}
+
+#para-gra-fo{
+    text-align: center;
+    font-size: 18px;
+    color: #696969;
+    margin-bottom: 20px;
+}
+
+.pro{
+    width: 23%;
+    min-width:250px;
+    padding: 10px  12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0 ,0 , 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.pro:hover{
+    box-shadow: 20px 20px 30px rgb(0, 0 ,0 , 0.06);
+
+}
+
+.imgs-foto{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pro-des{
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+span{
+    color: #606063;
+    font-size: 12px;
+}
+
+.titu-h5{
+    padding-top: 7px;
+    color: #0F0F0F;
+    font-size: 14px;
+}
+
+.titu-h5-2{
+    padding-top: 7px;
+    color: #0F0F0F;
+    font-size: 14px;
+}
+
+.star-2{
+    margin-top: 20px;
+}
+
+.titu-h5-short{
+    padding-top: 7px;
+    color: #0F0F0F;
+    font-size: 14px;
+
+}
+
+.star-short{
+
+    margin-top: 20px; 
+}
+
+.star-short-messi{
+    margin-top: 20px;
+}
+
+.star-calça{
+    margin-top: 20px; 
+}
+
+.star-sc{
+    margin-top: 20px;
+}
+
+.chuteira{
+    margin-top: 20px;
+}
+
+
+.icon{
+    font-size: 14px;
+    color: rgb(255, 238, 3);
+
+}
+
+.preço{
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0172B7;
+}
+
+.carrinho{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #0071B6;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 26px;
+    right: 10px;
+}
+
+

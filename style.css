@@ -426,6 +426,45 @@ span {
   font-size: 20px;
   margin-top: 20px;
 }
+.button {
+  border-radius: 5px;
+  background-color: #0071B6;
+  border: none;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button #spanzin{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button #spanzin:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover #spanzin {
+  padding-right: 25px;
+}
+
+.button:hover #spanzin:after {
+  opacity: 1;
+  right: 0;
+}
 
 #h2-titu {
   font-size: 50px;
@@ -439,7 +478,7 @@ span {
 
 
 .baner-ofe{
-  margin: 40px 0;
+  margin: 40px 80px;
 }
 
 #oferta{
@@ -508,8 +547,7 @@ span {
   height: 50vh;
   background-position: center;
   background-size: cover;
-  margin-left: 14px;
-  padding: 50px;
+  padding: 30px;
 }
 
 .banner-boxx{
@@ -522,8 +560,7 @@ span {
   height: 50vh;
   background-position: center;
   background-size: cover;
-  margin-left: 14px;
-  padding: 50px;
+  padding: 30px;
 }
 
 .titu-off{
@@ -565,16 +602,110 @@ span {
 }
 
 
+#ultimo-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+  
+}
+
+
 .banner-boox{
+  background-image: url(img/desconto-papel.jpeg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(img/desconto-papel.jpeg);
-  min-width:500px;
-  height: 50vh;
-  background-position: center;
+  min-width: 30%;
+  height: 30vh;
   background-size: cover;
-  margin-left: 14px;
-  padding: 50px;
+  background-position: center;
+  margin-bottom: 20px;
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ 
+}
+
+.h2-tit{
+  color: 	#fff;
+  font-family: 900;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.h2-titt{
+  color: 	#0F0F0F;
+  font-family: 900;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.h3-titt{
+  color:	#0A5E6D	;
+  font-family: 800;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.h3-tit{
+  color:	#cce7d0	;
+  font-family: 800;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.banner-boox1{
+  background-image: url(img/tenis-adidas.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.banner-boox2{
+  background-image: url(img/sportt.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+
+
+.banner-boox2:hover{
+  
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.banner-boox1:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.banner-boox:hover{
+  -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }

@@ -426,6 +426,7 @@ span {
   font-size: 20px;
   margin-top: 20px;
 }
+
 .button {
   border-radius: 5px;
   background-color: #0071B6;
@@ -441,7 +442,7 @@ span {
   margin: 5px;
 }
 
-.button #spanzin{
+.button #spanzin {
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -468,20 +469,20 @@ span {
 
 #h2-titu {
   font-size: 50px;
-  color:#4F4F4F;
+  color: #4F4F4F;
 }
 
-#span-desconto{
+#span-desconto {
   font-size: 60px;
-  color:#0071B6;
+  color: #0071B6;
 }
 
 
-.baner-ofe{
+.baner-ofe {
   margin: 40px 80px;
 }
 
-#oferta{
+#oferta {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -497,7 +498,7 @@ span {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  font-family: "Codec cold",sans-serif;
+  font-family: "Codec cold", sans-serif;
   font-size: 16px;
   font-weight: 700;
   height: 54px;
@@ -515,7 +516,7 @@ span {
   touch-action: manipulation;
 }
 
-.text{
+.text {
   color: #0071B6;
   font-size: 15px;
 }
@@ -537,64 +538,64 @@ span {
   opacity: .75;
 }
 
-.banner-box{
+.banner-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   background-image: url(img/oferta-camisa.jpeg);
-  min-width:580px;
+  min-width: 580px;
   height: 50vh;
   background-position: center;
   background-size: cover;
   padding: 30px;
 }
 
-.banner-boxx{
+.banner-boxx {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   background-image: url(img/conj-messi.jpg);
-  min-width:580px;
+  min-width: 580px;
   height: 50vh;
   background-position: center;
   background-size: cover;
   padding: 30px;
 }
 
-.titu-off{
+.titu-off {
   color: #fff;
   font-size: 14px;
   font-weight: 300;
 }
 
-.titu-of{
+.titu-of {
   color: #0071B6;
   font-size: 14px;
   font-weight: 300;
 }
 
-.h2-titulo{
+.h2-titulo {
   color: #0071B6;
   font-size: 28px;
   font-weight: 800;
 }
 
-.h2-titu{
+.h2-titu {
   color: #fff;
   font-size: 28px;
   font-weight: 800;
 }
 
-.ispan{
+.ispan {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
   padding-bottom: 15px;
 }
 
-.span-{
+.span- {
   color: #0071B6;
   font-size: 14px;
   font-weight: 500;
@@ -602,16 +603,16 @@ span {
 }
 
 
-#ultimo-banner{
+#ultimo-banner {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 80px;
-  
+
 }
 
 
-.banner-boox{
+.banner-boox {
   background-image: url(img/desconto-papel.jpeg);
   display: flex;
   flex-direction: column;
@@ -626,37 +627,38 @@ span {
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
- 
+
 }
 
-.h2-tit{
-  color: 	#fff;
+.h2-tit {
+  color: #fff;
   font-family: 900;
   font-size: 22px;
   margin-left: 15px;
 }
 
-.h2-titt{
-  color: 	#0F0F0F;
+.h2-titt {
+  color: #0F0F0F;
   font-family: 900;
   font-size: 22px;
   margin-left: 15px;
 }
 
-.h3-titt{
-  color:	#0A5E6D	;
-  font-family: 800;
-  font-size: 15px;
-  margin-left: 15px;
-}
-.h3-tit{
-  color:	#cce7d0	;
+.h3-titt {
+  color: #0A5E6D;
   font-family: 800;
   font-size: 15px;
   margin-left: 15px;
 }
 
-.banner-boox1{
+.h3-tit {
+  color: #cce7d0;
+  font-family: 800;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.banner-boox1 {
   background-image: url(img/tenis-adidas.jpg);
   display: flex;
   flex-direction: column;
@@ -672,7 +674,7 @@ span {
   transition: all 0.5s;
 }
 
-.banner-boox2{
+.banner-boox2 {
   background-image: url(img/sportt.jpg);
   display: flex;
   flex-direction: column;
@@ -691,21 +693,277 @@ span {
 
 
 
-.banner-boox2:hover{
+.banner-boox2:hover {
+
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.banner-boox1:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.banner-boox:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#news {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #001C34;
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  margin-top: 30px;
+  margin-bottom: 30PX;
+
+}
+
+.h4_titulo {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#para {
+  color: #818ea0;
+  font-size: 20px;
+}
+
+#grafo {
+  color: #FBBE28;
+  font-size: 20px;
+}
+
+#input {
+  height: 40px;
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  outline: none;
+}
+
+.form {
+  display: flex;
+  width: 50%;
+}
+
+
+
+
+
+#sing {
+  appearance: none;
+  background-color: #818ea0;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #0F0F0F;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin-right: 9px;
+  opacity: 1;
+  outline: 0;
+  padding: 0.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(0.694, 0, 0.335, 1),
+    background-color 100ms cubic-bezier(0.694, 0, 0.335, 1),
+    color 100ms cubic-bezier(0.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+#sing:before {
+  animation: opacityFallbackOut 0.5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #FBBE28;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1),
+    -webkit-clip-path 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+
+
+
+#sing:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+#sing:after {
+  background-color: #ffffff;
+}
+
+#sing .tex {
+  z-index: 1;
+  position: relative;
+}
+
+
+
+#foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #e3e6f3;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
   
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
-.banner-boox1:hover{
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+.about{
+  margin-left: -500px;
 }
 
-.banner-boox:hover{
-  -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+
+.imagem-logo {
+  width: 20%;
+  height: 25%;
+  margin-bottom: 30px;
+}
+
+.contato{
+  font-size: 18px;
+  padding: 20px;
+}
+
+.contat{
+  font-size: 18px;
+  padding: 5px 20px;
+}
+
+.bxs-down-arrow-square{
+  margin-top: 6px;
+}
+
+.pho_hou{
+  font-size: 14px;
+  color: #818ea0;
+  font-weight: 500;
+}
+
+.prgrafo{
+  font-size: 16px;
+ 
+}
+
+iframe{
+  margin-top: 5px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.icone{
+  margin: 0px 5px;
+  color: #0071B6;
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+  font-size: 25px;
+
+}
+
+.icone:hover{
+  color: #FBBE28;
+  transform: 0.8s;
+}
+
+.iconeh{
+  padding: 5px 10px;
+  
+}
+
+.app-play{
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.contato-about{
+  font-size: 18px;
+}
+
+.a-link{
+  font-size: 16px;
+  color: #818ea0;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.appplay{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #818ea0;
+}
+
+.copyri{
+  
+ 
+margin-top: 60%;
+margin-right: 90px;
+text-align: center;
+
+
+
+}
+
+#dev{
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+
+.ycon{
+ 
+  margin: 0 7px;
+ font-size: 25px;
+ transition: 0.3s ease-in-out;
+ 
+ color: #0071B6;
+  
+}
+
+.ycon:hover{
+  color: #FBBE28;
+  transform: 0.8s;
+  
 }

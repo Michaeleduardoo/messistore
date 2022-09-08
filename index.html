@@ -23,8 +23,8 @@
 
         <div>
             <ul id="navbar">
-                <li class="listah">
-                    <a class="link-a" id="links-a" href="index.html">Home</a>
+                <li class="listah ">
+                    <a class="link-a " id="links-a" href="index.html">Home</a>
                 </li>
                 <li class="listah"><a class="link-a" href="shop.html">Shop</a></li>
                 <li class="listah"><a class="link-a" href="blog.html">Blog</a></li>
@@ -32,10 +32,18 @@
                 <li class="listah">
                     <a class="link-a" href="contact.html">Contact</a>
                 </li>
-                <li class="listah">
+                <li class="listah" id="lg-bag">
                     <a class="link-a" href="#"> <i class="bx bx-shopping-bag"></i></a>
                 </li>
+                <a href="#" id="close"><i class='bx bx-x-circle'></i></a>
             </ul>
+        </div>
+
+        <div id="mobile">
+            <a class="link-a" id="barz" href="#"> <i class="bx bx-shopping-bag"></i></a>
+            <i id="bar-icon" class='bx bx-log-out-circle bar-bx'></i>
+
+            </li>
         </div>
     </section>
 
@@ -514,32 +522,32 @@
             <strong class="prgrafo">Phone: <span class="pho_hou"> +34932150674</span></strong>
             <strong class="prgrafo">Hours: <span class="pho_hou">10:00 - 18:00 / Mat - Sat</span></strong>
             <h4 class="contat">Address</i></h4>
-            <iframe 
+            <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.03570287544!2d2.1586884174438477!3d41.39503099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3efe4f9d33d%3A0xf2571c808ac6e303!2sSanta%20Eul%C3%A0lia!5e0!3m2!1spt-BR!2sbr!4v1662084470681!5m2!1spt-BR!2sbr"
                 width="520" height="250" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
 
-        <div class="col about">
+        <div class="col about cols">
             <h4 class="contato-about">About</h4>
             <a href="#" class="a-link">About us</a>
-            <a href="#"  class="a-link">Delivery information</a>
-            <a href="#"  class="a-link">Privacy policy</a>
-            <a href="#"  class="a-link">Terms & Conditions</a>
-            <a href="#"  class="a-link">Contact us</a>
+            <a href="#" class="a-link">Delivery information</a>
+            <a href="#" class="a-link">Privacy policy</a>
+            <a href="#" class="a-link">Terms & Conditions</a>
+            <a href="#" class="a-link">Contact us</a>
         </div>
 
-        <div class="col">
+        <div class="col cols">
             <h4 class="contato-about">Account</h4>
-            <a href="#"  class="a-link">Sing in</a>
-            <a href="#"  class="a-link">View Cart</a>
-            <a href="#"  class="a-link">My Wishlist</a>
-            <a href="#"  class="a-link">Track My order</a>
-            <a href="#"  class="a-link">Help</a>
+            <a href="#" class="a-link">Sing in</a>
+            <a href="#" class="a-link">View Cart</a>
+            <a href="#" class="a-link">My Wishlist</a>
+            <a href="#" class="a-link">Track My order</a>
+            <a href="#" class="a-link">Help</a>
         </div>
 
-        <div class="follow">
+        <div class="follow cols">
             <h4 class="contato-about">Follow us</h4>
             <div class="iconeh"></div>
             <a href="#"><i class='bx bxl-facebook-square icone'></i></a>
@@ -550,17 +558,20 @@
         </div>
 
 
-        <div class="col instal">
-            <h4 class="contato-about">Install App</h4>
-            <p class="appplay">From App Story or Google Play</p>
-            <div class="show">
-                <img class="app-play" src="./img/app.jpg" alt="App">
-                <img class="app-play" src="./img/play.jpg" alt="Play">
+        <div class="col instal colss">
+
+            <div class="colls">
+                <h4 class="contato-about">Install App</h4>
+                <p class="appplay">From App Story or Google Play</p>
+                <div class="show">
+                    <img class="app-play" src="./img/app.jpg" alt="App">
+                    <img class="app-play" src="./img/play.jpg" alt="Play">
+                </div>
+                <p class="appplay">Secured Payment Gateways</p>
+                <img src="./img/pay.png" alt="Pay">
             </div>
-            <p class="appplay">Secured Payment Gateways</p>
-            <img src="./img/pay.png" alt="Pay">
-       
-            <div class="copyri" >
+
+            <div class="copyri" id="devlop">
                 <p id="dev">Developed by MICHAEL</p>
                 <a href="#"> <i class='bx bxl-github ycon  '></i></a>
                 <a href="#"> <i class='bx bxl-linkedin-square ycon  '></i></a>
@@ -568,10 +579,12 @@
             </div>
     </footer>
 
- 
+
 
 
 
 </body>
+
+<script src="./js.js"></script>
 
 </html>

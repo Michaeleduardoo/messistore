@@ -978,6 +978,55 @@ iframe {
 
 }
 
+/*SHOP*/
+#page-header{
+  background-image: url("./img/b1.jpg");
+  width: 100%;
+    height: 40vh;
+    margin-top: 100px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+#contin{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#titul-h2 {
+  color: #fff;
+  font-size: 50px;
+}
+
+#paragrafi {
+  color: #DCDCDC;
+  font-size: 25px;
+}
+
+#pagination{
+  text-align: center;
+}
+
+.azin{
+  text-decoration: none;
+  background-color: #0071B6;
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#icon-arror{
+  font-size: 20px;
+}
+
 
 
 
@@ -1115,56 +1164,56 @@ iframe {
     padding: 0 40px;
   }
 
-  .banner-boox{
+  .banner-boox {
     min-width: 30%;
   }
 
-  .banner-boox1{
+  .banner-boox1 {
     min-width: 30%;
   }
 
-  .banner-boox2{
+  .banner-boox2 {
     min-width: 30%;
   }
 
-  .newatext{
+  .newatext {
     display: block;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .h4_titulo{
+  .h4_titulo {
     text-align: center;
   }
 
-  .form{
+  .form {
     display: flex;
     margin-left: auto;
-    margin:auto ;
+    margin: auto;
   }
 
-  iframe{
+  iframe {
     width: 100%;
     height: 50%;
   }
 
-  .app-play{
+  .app-play {
     width: 50%;
     height: 50%;
   }
 
-  .col{
+  .col {
     display: block;
     text-align: center;
   }
 
-  .imagem-logo{
+  .imagem-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .cols{
+  .cols {
     flex-direction: column;
     margin-bottom: 20px;
     margin: 0px;
@@ -1174,20 +1223,247 @@ iframe {
     flex-wrap: wrap;
     text-align: center;
   }
-  
-  .colls{
-   margin-top: 40px;
-  
+
+  .colls {
+    margin-top: 40px;
+
   }
 
   .copyri {
     margin-top: 0;
     margin-left: 365px;
-   margin-top: -170px;
+    margin-top: -170px;
     margin-right: 90px;
     float: right;
     position: absolute;
     text-align: center;
   }
-  
+}
+
+@media (max-width:412px) {
+
+  #header {
+    padding: 20px 30px;
+  }
+
+  #coniteiner {
+
+    padding: 0 10px;
+    background-position: 35%;
+  }
+
+  #titulo-h4 {
+    padding-bottom: 5px;
+    font-size: 20px;
+  }
+
+  #titulo-h2 {
+    font-size: 30px;
+  }
+
+  #titulo-h1 {
+    font-size: 30px;
+    color: white;
+    margin-top: 0px;
+  }
+
+  #continei {
+    padding: 0px 80px;
+    margin-left: -50px;
+  }
+
+  #feature .box-conteiner {
+
+    width: 118px;
+    margin-left: -4px;
+
+  }
+
+  .imgs-1 {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+
+  .titu-h6 {
+    font-size: 13px;
+    width: 95px;
+
+  }
+
+  #feature {
+    justify-content: space-between;
+  }
+
+  #Products {
+    font-size: 40px;
+    margin-top: -55px;
+  }
+
+  #para-gra-fo {
+    font-size: 16px;
+  }
+
+
+
+
+  .copyri {
+    margin-left: 155px;
+    margin-top: -499px
+  }
+
+
+  iframe {
+   
+    margin-bottom: 100px; 
+}
+
+  .pro {
+    width: 100%;
+  }
+
+  #banner {
+    height: 30vh;
+  }
+
+  #h2-titu {
+    font-size: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  #span-desconto {
+    font-size: 25px;
+  }
+
+
+  .button {
+    padding: 5px;
+  }
+
+
+  #Products {
+    font-size: 30px;
+    margin-top: -55px;
+  }
+
+  #para-gra-fo {
+    font-size: 15px;
+  }
+
+  .banner-box {
+    height: 20vh;
+  }
+
+  .titu-off {
+    font-size: 12px;
+
+  }
+
+  .h2-titu {
+    font-size: 20px;
+
+  }
+
+  .ispan {
+    font-size: 12px;
+
+  }
+
+  #oferta {
+
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+  }
+
+  .banner-boxx {
+
+    height: 20vh;
+  }
+
+  .titu-of {
+    font-size: 12px;
+  }
+
+  .h2-titulo {
+    font-size: 20px;
+  }
+
+  .span- {
+    font-size: 12px;
+  }
+
+  #ultimo-banner {
+
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+  }
+
+  .banner-boox2 {
+
+    margin-top: 20px;
+  }
+
+
+  .h4_titulo {
+    font-size: 20px;
+  }
+
+  #para {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #grafo {
+
+    font-size: 12px;
+
+  }
+
+
+  .form {
+    width: 100%;
+    margin-top: 10px;
+
+  }
+
+  #news {
+    padding: 40px;
+  }
+
+
+  .imagem-logo {
+    width: 50%;
+    height: 25%;
+
+  }
+
+  .prgrafo {
+    display: block;
+  }
+
+  .contat {
+    margin-top: 10px;
+  }
+
+  .cols {
+
+    margin-top: 0px;
+  }
+
+  #dev {
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+
+
 }

@@ -30,7 +30,7 @@
                 <li class="listah"><a class="link-a" href="blog.html">Blog</a></li>
                 <li class="listah"><a class="link-a" href="about.html">About</a></li>
                 <li class="listah">
-                    <a class="link-a"  href="conect.html">Contact</a>
+                    <a class="link-a" href="conect.html">Contact</a>
                 </li>
                 <li class="listah" id="lg-bag">
                     <a class="link-a" id="links-a" href="icon.html"> <i class="bx bx-shopping-bag"></i></a>
@@ -56,78 +56,151 @@
         </div>
     </div>
 
-   
+
     <div id="cart" class="feature">
+        <table id="cart-table" width="100%">
+            <thead id="id-thead">
+                <tr>
+                    <td class="cart-td">Remove</td>
+                    <td class="cart-td">Image</td>
+                    <td class="cart-td">Product</td>
+                    <td class="cart-td">Prince</td>
+                    <td class="cart-td">Quantity</td>
+                    <td class="cart-td">Subtotal</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr id="tr-cent">
+                    <td class="tbody-td"><i class='bx bx-registered'><a href="#"></a></i></td>
+                    <td class="tbody-td"><img class="img-icon" src="./img/chuteira-messi.jpeg" alt="Chuteira de campo">
+                    </td>
+                    <td class="tbody-td">Adidas Football Boots Nemeziz Messi</td>
+                    <td class="tbody-td">$250,19</td>
+                    <td class="tbody-td"><input type="number" class="input-quanty" value="1"></td>
+                    <td class="tbody-td">$250,19</td>
+                </tr>
+
+                <tr id="tr-cent">
+                    <td class="tbody-td"><i class='bx bx-registered'><a href="#"></a></i></td>
+                    <td class="tbody-td"><img class="img-icon" src="./imgshop/calça-2.jpg" alt="Chuteira de campo"></td>
+                    <td class="tbody-td">Adidas style men's jeans</td>
+                    <td class="tbody-td">$40,18</td>
+                    <td class="tbody-td"><input type="number" class="input-quanty" value="1"></td>
+                    <td class="tbody-td">$40,18</td>
+                </tr>
+
+                <tr id="tr-cent">
+                    <td class="tbody-td"><i class='bx bx-registered'><a href="#"></a></i></td>
+                    <td class="tbody-td"><img class="img-icon" src="./imgshop/bone.jpg" alt="Chuteira de campo"></td>
+                    <td class="tbody-td">Men's baseball cap - original</td>
+                    <td class="tbody-td">$77,99</td>
+                    <td class="tbody-td"><input type="number" class="input-quanty" value="1"></td>
+                    <td class="tbody-td">$77,99</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="cart-add" class="feature" >
+
+        <div class="card">
+            <img src="./img/cupon.png" alt="Avatar" style="width:100%">
+            <div class="container-card">
+                <h3 id="coupon-h3"><b>Apply Coupon</b></h3>
+                <input type="text" class="card-input" placeholder="Enter you coupon...">
+                <button class="button-card" type="submit" role="button">Apply</button>
+
+            </div>
+
+        </div>
+
+        <div id="subtotal">
+            <h3 id="sub-h3">Cart Totals</h3>
+            <table id="table-sub">
+                <tr>
+                    <td class="td-sub">Cart Subtotal</td>
+                    <td  class="td-sub">$1000</td>
+                </tr>
+
+                <tr>
+                    <td  class="td-sub">Shipping</td>
+                    <td  class="td-sub">Free</td>
+                </tr>
+
+                <tr>
+                    <td  class="td-sub"><strong>Total</strong></td>
+                    <td  class="td-sub"><strong>$1000</strong></td>
+                </tr>
+            </table> 
+            <button class="button-sub" role="button">Proceed to checkout</button>
+        </div>
 
     </div>
-    
+
+        <footer id="foot" class="feature">
+            <div class="col">
+                <img class="imagem-logo" src="./img/logo-messi.png" alt="Logo">
+                <h4 class="contato">Contact</h4>
+                <strong class="prgrafo">Phone: <span class="pho_hou"> +34932150674</span></strong>
+                <strong class="prgrafo">Hours: <span class="pho_hou">10:00 - 18:00 / Mat - Sat</span></strong>
+                <h4 class="contat">Address</i></h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.03570287544!2d2.1586884174438477!3d41.39503099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3efe4f9d33d%3A0xf2571c808ac6e303!2sSanta%20Eul%C3%A0lia!5e0!3m2!1spt-BR!2sbr!4v1662084470681!5m2!1spt-BR!2sbr"
+                    width="520" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class="col about cols">
+                <h4 class="contato-about">About</h4>
+                <a href="#" class="a-link">About us</a>
+                <a href="#" class="a-link">Delivery information</a>
+                <a href="#" class="a-link">Privacy policy</a>
+                <a href="#" class="a-link">Terms & Conditions</a>
+                <a href="#" class="a-link">Contact us</a>
+            </div>
+
+            <div class="col cols">
+                <h4 class="contato-about">Account</h4>
+                <a href="#" class="a-link">Sing in</a>
+                <a href="#" class="a-link">View Cart</a>
+                <a href="#" class="a-link">My Wishlist</a>
+                <a href="#" class="a-link">Track My order</a>
+                <a href="#" class="a-link">Help</a>
+            </div>
+
+            <div class="follow cols">
+                <h4 class="contato-about">Follow us</h4>
+                <div class="iconeh"></div>
+                <a href="#"><i class='bx bxl-facebook-square icone'></i></a>
+                <a href="#"><i class='bx bxl-instagram icone'></i></a>
+                <a href="#"><i class='bx bxl-youtube icone'></i></a>
+                <a href="#"><i class='bx bxl-twitter icone'></i></a>
+                <a href="https://messi.com/estadisticas-totales/"><i class='bx bx-football icone'></i></a>
+            </div>
 
 
+            <div class="col instal colss">
 
-
-    <footer id="foot" class="feature">
-        <div class="col">
-            <img class="imagem-logo" src="./img/logo-messi.png" alt="Logo">
-            <h4 class="contato">Contact</h4>
-            <strong class="prgrafo">Phone: <span class="pho_hou"> +34932150674</span></strong>
-            <strong class="prgrafo">Hours: <span class="pho_hou">10:00 - 18:00 / Mat - Sat</span></strong>
-            <h4 class="contat">Address</i></h4>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.03570287544!2d2.1586884174438477!3d41.39503099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3efe4f9d33d%3A0xf2571c808ac6e303!2sSanta%20Eul%C3%A0lia!5e0!3m2!1spt-BR!2sbr!4v1662084470681!5m2!1spt-BR!2sbr"
-                width="520" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-
-        <div class="col about cols">
-            <h4 class="contato-about">About</h4>
-            <a href="#" class="a-link">About us</a>
-            <a href="#" class="a-link">Delivery information</a>
-            <a href="#" class="a-link">Privacy policy</a>
-            <a href="#" class="a-link">Terms & Conditions</a>
-            <a href="#" class="a-link">Contact us</a>
-        </div>
-
-        <div class="col cols">
-            <h4 class="contato-about">Account</h4>
-            <a href="#" class="a-link">Sing in</a>
-            <a href="#" class="a-link">View Cart</a>
-            <a href="#" class="a-link">My Wishlist</a>
-            <a href="#" class="a-link">Track My order</a>
-            <a href="#" class="a-link">Help</a>
-        </div>
-
-        <div class="follow cols">
-            <h4 class="contato-about">Follow us</h4>
-            <div class="iconeh"></div>
-            <a href="#"><i class='bx bxl-facebook-square icone'></i></a>
-            <a href="#"><i class='bx bxl-instagram icone'></i></a>
-            <a href="#"><i class='bx bxl-youtube icone'></i></a>
-            <a href="#"><i class='bx bxl-twitter icone'></i></a>
-            <a href="https://messi.com/estadisticas-totales/"><i class='bx bx-football icone'></i></a>
-        </div>
-
-
-        <div class="col instal colss">
-
-            <div class="colls">
-                <h4 class="contato-about">Install App</h4>
-                <p class="appplay">From App Story or Google Play</p>
-                <div class="show">
-                    <img class="app-play" src="./img/app.jpg" alt="App">
-                    <img class="app-play" src="./img/play.jpg" alt="Play">
+                <div class="colls">
+                    <h4 class="contato-about">Install App</h4>
+                    <p class="appplay">From App Story or Google Play</p>
+                    <div class="show">
+                        <img class="app-play" src="./img/app.jpg" alt="App">
+                        <img class="app-play" src="./img/play.jpg" alt="Play">
+                    </div>
+                    <p class="appplay">Secured Payment Gateways</p>
+                    <img src="./img/pay.png" alt="Pay">
                 </div>
-                <p class="appplay">Secured Payment Gateways</p>
-                <img src="./img/pay.png" alt="Pay">
-            </div>
 
-            <div class="copyri" id="devlop">
-                <p id="dev">Developed by MICHAEL</p>
-                <a href="#"> <i class='bx bxl-github ycon  '></i></a>
-                <a href="#"> <i class='bx bxl-linkedin-square ycon  '></i></a>
-                <a href="#"> <i class='bx bxl-instagram-alt ycon   '></i></a>
-            </div>
-    </footer>
+                <div class="copyri" id="devlop">
+                    <p id="dev">Developed by MICHAEL</p>
+                    <a href="#"> <i class='bx bxl-github ycon  '></i></a>
+                    <a href="#"> <i class='bx bxl-linkedin-square ycon  '></i></a>
+                    <a href="#"> <i class='bx bxl-instagram-alt ycon   '></i></a>
+                </div>
+        </footer>
 
 
 
